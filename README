@@ -9,7 +9,8 @@ testng maven tutorial
 5. run->maven build->mvn clean test
 6. will test and result the report.
 
-
+pom.xml
+=====================================================
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>Testng</groupId>
@@ -58,3 +59,30 @@ testng maven tutorial
     </plugins>
   </build>
 </project>
+=================================================================
+
+testng.xml
+
+================================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+<test name="Test1">
+  <groups>
+    <run>
+      <include name="checkintest"/>
+    </run>
+  </groups>
+  <packages>
+      <package name="com.renrendai.lihao01" />
+  </packages>
+
+  <!--
+    <classes>
+    <class name="com.renrendai.lihao01.Test1"/>
+  </classes>
+   -->
+</test>
+</suite>
+
+=================================================================

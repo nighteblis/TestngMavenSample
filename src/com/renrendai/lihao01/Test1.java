@@ -1,6 +1,6 @@
 package com.renrendai.lihao01;
 
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class Test1 {
 	
@@ -12,10 +12,10 @@ public class Test1 {
 	  public void testMethod2() {
 	  }
 	 
-	  @Test(groups = { "functest" })
+	  @Test(groups = { "checkintest" })
 	  public void testMethod3() {
+		  System.out.println("method3");
 	  }
-
 	
 
 }

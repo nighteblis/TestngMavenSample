@@ -8,9 +8,8 @@
     </run>
   </groups>
   <packages>
-      <package name="com.renrendai.lihao01" />
+      <package name="*" />
   </packages>
-  
   <!-- 
     <classes>
     <class name="com.renrendai.lihao01.Test1"/>

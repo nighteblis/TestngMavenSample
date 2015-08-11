@@ -1,5 +1,5 @@
 ######################
-testng maven tutorial
+testng maven sample project, created by lihao , http://lihao.cf
 #####################
 
 1. create a java project
@@ -8,6 +8,7 @@ testng maven tutorial
 4. define your suite test xml
 5. run->maven build->mvn clean test
 6. will test and result the report.
+
 
 pom.xml
 =====================================================

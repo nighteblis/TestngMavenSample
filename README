@@ -2,12 +2,11 @@
 testng maven sample project, created by lihao , http://lihao.cf
 #####################
 
-1. create a java project
-2. convert to a maven project
-3. pom.xml
-4. define your suite test xml
-5. run->maven build->mvn clean test
-6. will test and result the report.
+1. create a maven  project
+2. pom.xml
+3. define your suite test xml
+4. run->maven build->mvn clean test
+5. test and result the report.
 
 
 pom.xml

@@ -8,12 +8,8 @@
     </run>
   </groups>
   <packages>
-      <package name="*" />
+      <package name="cf.lihao.test" />
   </packages>
-  <!-- 
-    <classes>
-    <class name="com.renrendai.lihao01.Test1"/>
-  </classes>
-   -->
+
 </test>
 </suite>

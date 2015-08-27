@@ -1,4 +1,4 @@
-package com.renrendai.lihao01;
+package cf.lihao.test;
 
 import org.testng.annotations.*;
 

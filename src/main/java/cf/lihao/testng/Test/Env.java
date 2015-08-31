@@ -12,20 +12,10 @@ import org.testng.annotations.BeforeTest;
 public class Env {
 	
 	
-	private TestBean test ;
-	private ApplicationContext context;
 
-@BeforeSuite(alwaysRun=false)
+@BeforeSuite(alwaysRun=true)
 public void beforesuite()	
 {
-
-	System.out.println();
-	
-	  context = new FileSystemXmlApplicationContext("src/main/java/spring.xml");
-
-	  test = (TestBean) context.getBean("testBean");
-	      
-	test.init();	
 	System.out.println("before suite");
 }
 @AfterSuite	(alwaysRun=true)

@@ -7,7 +7,7 @@ import org.testng.annotations.*;
 
 @Test
 @ContextConfiguration(locations = { "classpath:spring.xml" })
-public class Test1 extends AbstractTestNGSpringContextTests {
+public class Case extends AbstractTestNGSpringContextTests {
 
 	
 	@Autowired
@@ -15,18 +15,15 @@ public class Test1 extends AbstractTestNGSpringContextTests {
 	
 	
 	@Test(groups = { "functest", "checkintest" })
-	  public void testMethod1() {
-	  }
-	 
-	  @Test(groups = {"functest", "checkintest"} )
-	  public void testMethod2() {
-	  }
-	 
-	  @Test(groups = { "checkintest" })
+	public void testMethod1() {
+	}
+	@Test(groups = {"functest", "checkintest"} )
+	public void testMethod2() {
+	}
+	@Test(groups = { "checkintest" })
 	  public void testMethod3() {
 		  testbean.init();
 		  System.out.println("method3");
 	  }
-	
 
 }

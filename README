@@ -10,12 +10,9 @@ testng maven sample project, created by lihao , http://lihao.cf
 
 ========================major change log=============================
 
-<<<<<<< HEAD
 2015-08-31
 1. add the spring-test framework
 
-=======
->>>>>>> 6ffe9815ce27a245a363645737433b0dfb360557
 2015-08-27:
 1.  add the spring auto scan code
 

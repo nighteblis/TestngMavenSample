@@ -1,9 +1,9 @@
 ######################
-testng maven sample project, created by lihao , http://lihao.cf
+testng maven sample project (with spring service test), created by lihao , http://lihao.cf
 #####################
 
 1. create a maven  project
-2. pom.xml
+2. editpom.xml
 3. define your suite test xml
 4. run->maven build->mvn clean test
 5. test and result the report.
